@@ -4,19 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vicious Cycles Bike Shop</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
 </head>
 <body>
+
+    <!--Header bar-->
     <div id="headerBar">
-        <header></header>
-        <nav></nav>
+        <header>
+            <a href="#">
+                <img src="images/logo.png" alt="Vicious Cycles">
+            </a>
+        </header>
+        <nav>
+            <div id="mobile-nav">
+                <a onclick="menuToggle()" id="hamburger">&#9776;</a>
+            </div>
+            <div id="desktop-nav">
+                <a href="#">Home</a>
+                <a href="#">Products</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </nav>
     </div>
 
-    <main>
+    <!--Hero image-->
+    <img src="images/hero2.jpeg" alt="Grayscale bikers" class="hero-image">
+    <div class="heroText">
+        <h1>Vicious Cycles Bike Shop</h1>
+        <h3>Your Local Home for All Things Biking</h3>
+    </div>
 
+    <!--Page body-->
+    <main>
+        <h2 class="paragraph">Vicious Cycles Bike Shop is a Charlotte-based cycle workshop founded by a few like-minded individuals in late 2010. Our mechanics build the bikes and man the workshop. Our customer service staff attends to the day-to-day operations. We hope to create and foster a strong passion for the local biking scene because each and every one of us is a biking enthusiast.</h2>
+        <h3 class="shrink">We believe that every machine should be an extension of its owner. We believe in the significance of individualism. We believe in the stories between your cycle and you. We believe in having fun. No matter the circumstances, we bike hard and we bike often.</h3>
+        <h3 class="shrink">You get on your bike, you ride, you fall, you might get pulled over, you overcome it all and you ride again. It’s a Vicious Cycle! So make it worth the while, don't just be part of the numbers. Ride your cycle, chase your dreams, live your life.</h3>
+        <h1>Vicious Cycles carries the following brands:</h1>
+        <!--Brand grid-->
+        <div class="brandGrid x3">
+            <a href="#" class="brandGridItem">
+                GIANT
+            </a>
+            <a href="#" class="brandGridItem">
+                DIAMONDBACK
+            </a>
+            <a href="#" class="brandGridItem">
+                HUFFY
+            </a>
+            <a href="#" class="brandGridItem">
+                KONA
+            </a>
+            <a href="#" class="brandGridItem">
+                RALEIGH
+            </a>
+            <a href="#" class="brandGridItem">
+                ORBEA
+            </a>
+        </div>
+        <h2>Visit Brand Websites</h2>
+        <ul>
+            <li><a href="https://giant-bicycles.com/">Giant</a></li>
+            <li><a href="https://diamondback.com/">Diamondback</a></li>
+            <li><a href="https://huffybikes.com">Huffy</a></li>
+            <li><a href="https://konaworld.com/">Kona</a></li>
+            <li><a href="https://raleighusa.com/">Raleigh</a></li>
+            <li><a href="https://orbea.com">Orbea</a></li>
+        </ul>
+        <h1>What do you want to buy?</h1>
+
+        <!--Products grid-->
+        <div class="brandGrid x4">
+            <div class="brandGridItem">
+                <img src="images/kidbike-small.jpg" alt="Kid Bike">
+                <h2>KIDS' BIKES</h2>
+            </div>
+            <div class="brandGridItem">
+                <img src="images/mountainbike-small.jpg" alt="Mountain Bike">
+                <h2>MOUNTAIN BIKES</h2>
+            </div>
+            <div class="brandGridItem">
+                <img src="images/commuterbike-small.jpg" alt="Commuter Bike">
+                <h2>COMMUTER BIKES</h2>
+            </div>
+            <div class="brandGridItem middleGridItem">
+                <img src="images/bottle-small.jpg" alt="Water Bottle">
+                <h2>ACCESSORIES</h2>
+            </div>
+        </div>
+        <div id="philosophy">
+            <h1>Our Philosophy</h1>
+            <img class="side-image" src="images/biker-on-road.jpeg" alt="Biker on Road">
+            <h2>Our philosophy is that when you choose your bike, you should choose it based on the folks who will not only build your bicycle, but also those who will help you get comfortable on the bike, as well as provide service down the road as you need it. The best things in life are pretty simple. Riding bikes with friends, discovering new places and finding new trails are definitely included. Riding bikes helps us to disconnect from the hectic and noisy world and connect with friends, nature and ourselves. It might just be the best thing ever. Technological advancement, digital exploration and the growing globalization defines the world we live in and will bring more change in the years to come than ever before. It’s a world full of uncertainties where it’s easy to get lost. But bikes are a very rare breed of products that are completely mechanical and analogue. There aren’t many products that are so simple yet so sophisticated in their designs. Maybe that is what started my excitement for bikes as products. The process of observing, designing, improving, engineering and producing bikes surely is the second-best thing ever.</h2>
+        </div>
     </main>
 
-    <footer>
+    <!--Collapsable mobile menu script-->
+    <script src="scripts/hamburger.js"></script>
 
+    <footer>
+        <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+        <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter"></a>
+        <p>&copy;Jesse Mindel 2021</p>
     </footer>
 </body>
 </html>
