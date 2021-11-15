@@ -93,7 +93,6 @@ var brands = {
                     var currentBrand = bikes.brands[Object.keys(brands)[i]];
                     var qArray = query.toLowerCase().split(/[;,— =]/);
                     qArray.shift();
-                    console.log(currentBrand);
                     for (var ii = 0; ii < currentBrand.length; ii++) {
                         var currentBike = currentBrand[ii];
                         var sCount = 0;
@@ -125,7 +124,6 @@ var brands = {
                 }
             }
             }
-            console.log(searchResponse);
             for (var i = 0; i < searchResponse.length; i++) {
                 createEntry(searchResponse[i]);
             }
@@ -139,9 +137,9 @@ function createEntry(query) {
     link.append(surroundDiv)
     surroundDiv.innerHTML = "<h2>"+query.brand+": "+query.name+" "+query.class+" Bike</h2><h3>"+query.price+"</h3>";
     if (parseInt(query.stock) > 0) {
-        surroundDiv.innerHTML += "<h3 style='color:lime'>In Stock</h3>";
+        surroundDiv.innerHTML += "<h3 class='lime'>In Stock</h3>";
     } else {
-        surroundDiv.innerHTML += "<h3 style='color:red'>Out of Stock</h3>";
+        surroundDiv.innerHTML += "<h3 class='red'>Out of Stock</h3>";
     }
 }
 function ajax(url, callback) {

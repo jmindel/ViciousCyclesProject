@@ -22,7 +22,6 @@ function analyzeData(rawData) {
             }
         }
     }
-    console.log(bike);
     var container = document.getElementById("bikeInfoContainer");
     container.innerHTML += "<div class='bikeInfo'><h1>"+bike.name+"</h1><h1>"+bike.class+" Bike</h1><h1>Price: "+bike.price+"</h1></div>";
     
