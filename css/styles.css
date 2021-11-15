@@ -50,6 +50,7 @@ li a {
         position: fixed;
         right: 0.25vw;
         top: 1.75vw;
+        cursor: pointer;
     }
 
     /*Default: hide nav*/
@@ -303,10 +304,6 @@ li a {
         font-size: 4vw;
     }
 
-    .bikeInfo {
-        float: right;
-        width: 50vw;
-    }
 
     /*Footer*/
     footer {
@@ -589,8 +586,6 @@ li a {
     }
 
     .bikeInfo {
-        float: right;
-        width: 50vw;
         margin-top: 5vw;
     }
 
