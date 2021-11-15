@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vicious Cycles Bike Shop</title>
+    <link rel="stylesheet" href="/viciouscycles/css/styles.css" type="text/css">
+</head>
+<body>
+    <div id="headerBar">
+        <header>
+            <a href="">
+                <img src="/viciouscycles/images/logo.png" alt="Vicious Cycles">
+            </a>
+        </header>
+        <nav>
+            <div id="mobile-nav">
+                <a onclick="menuToggle()" id="hamburger">&#9776;</a>
+            </div>
+            <div id="desktop-nav">
+                <a href="">Home</a>
+                <a href="">Products</a>
+                <a href="">About Us</a>
+                <a href="">Contact Us</a>
+            </div>
+        </nav>
+    </div>
+    <main>
+        <div id="searchDiv"></div>
+    </main>
+    <script src="/viciouscycles/scripts/hamburger.js"></script>
+    <script>
+    //Window URL
+    var url = window.location.href;
+
+    //Gets data from GET request
+    function getURLData() {
+    var search = url.split("search/?")[1].split("&");
+    for (var i = 0; i < search.length; i++) {
+        search[i] = search[i].replace(/\+/g, " ");
+        search[i] = search[i].replace(/%21/g, "!");
+        search[i] = search[i].replace(/%40/g, "@");
+        search[i] = search[i].replace(/%23/g, "#");
+        search[i] = search[i].replace(/%24/g, "$");
+        search[i] = search[i].replace(/%25/g, "%");
+        search[i] = search[i].replace(/%5E/g, "^");
+        search[i] = search[i].replace(/%26/g, "&");
+        search[i] = search[i].replace(/%28/g, "(");
+        search[i] = search[i].replace(/%29/g, ")");
+        search[i] = search[i].replace(/%2B/g, "+");
+        search[i] = search[i].replace(/%2C/g, ",");
+        search[i] = search[i].replace(/%2F/g, "/");
+        search[i] = search[i].replace(/%3A/g, ":");
+        search[i] = search[i].replace(/%3B/g, ";");
+        search[i] = search[i].replace(/%3D/g, "=");
+        search[i] = search[i].replace(/%3F/g, "?");
+        search[i] = search[i].replace(/%5B/g, "[");
+        search[i] = search[i].replace(/%5D/g, "]");
+        
+    }
+    return search;
+    }
+var searchResponse = [];
+var bikes;
+var brands = {
+    giant: 0,
+    diamondback: 0,
+    huffy: 0,
+    kona: 0,
+    raleigh: 0,
+    orbea: 0
+};
+    function analyzeData(data) {
+        var search = getURLData();
+        var query = search[search.length-1];
+        for (var i = 0; i < search.length - 1 && i < Object.keys(brands).length; i++) {
+            if (search[i].includes("=on")) {
+                var brand = search[i].split("=on")[0];
+                brands[brand] = 1;
+            }
+        }
+        bikes = JSON.parse(data);
+        var counter = 0;
+        for (var i = 0; i < Object.keys(brands).length; i++) {
+            if (brands[Object.keys(brands)[i]] == 1) {
+                counter++;
+            }
+        }
+            searchResponse = [];
+            for (var i = 0; i < Object.keys(brands).length; i++) {
+            if (brands[Object.keys(brands)[i]] == 1 || counter == 0) {
+                if (query != "") {
+                    var currentBrand = bikes.brands[Object.keys(brands)[i]];
+                    var qArray = query.toLowerCase().split(/[;,— =]/);
+                    qArray.shift();
+                    console.log(currentBrand);
+                    for (var ii = 0; ii < currentBrand.length; ii++) {
+                        var currentBike = currentBrand[ii];
+                        var sCount = 0;
+                        for (var iii = 0; iii < qArray.length; iii++) {
+                            if (currentBike.name.toLowerCase().includes(qArray[iii])) {
+                                sCount += currentBike.name.toLowerCase().split(qArray[iii]).length - 1;
+                            }
+                            if (currentBike.class.toLowerCase().includes(qArray[iii])) {
+                                sCount += currentBike.class.toLowerCase().split(qArray[iii]).length - 1;
+                            }
+                            if (currentBike.price.toLowerCase().includes(qArray[iii])) {
+                                sCount += currentBike.price.toLowerCase().split(qArray[iii]).length - 1;
+                            }
+                            if (currentBike.description.toLowerCase().includes(qArray[iii])) {
+                                sCount += currentBike.description.toLowerCase().split(qArray[iii]).length - 1;
+                            }
+                            var specs = Object.keys(currentBike.specs);
+                            for (var i4 = 0; i4 < specs.length; i4++) {
+                                if (currentBike.specs[specs[i4]].toLowerCase().includes(qArray[iii])) {
+                                    sCount += currentBike.specs[specs[i4]].toLowerCase().split(qArray[iii]).length - 1;
+                                }
+                            }
+                        }
+                        if (sCount > Math.ceil(3*(qArray.length-1)/2)) {
+                            searchResponse.push(currentBike);
+                        }
+                        //alert(sCount);
+                    }
+                }
+            }
+            }
+            console.log(searchResponse);
+            for (var i = 0; i < searchResponse.length; i++) {
+                createEntry(searchResponse[i]);
+            }
+        }
+function createEntry(query) {
+    var surroundDiv = document.createElement("div");
+    var link = document.createElement("a");
+    link.href = "/viciouscycles/products/bikes/" + query.brand.toLowerCase() + "/" + query.name.replace(/ /g, "_").toLowerCase() + ".html";
+    surroundDiv.className = "entryDiv";
+    document.getElementById("searchDiv").append(link);
+    link.append(surroundDiv)
+    surroundDiv.innerHTML = "<h2>"+query.brand+": "+query.name+" "+query.class+" Bike</h2><h3>"+query.price+"</h3>";
+    if (parseInt(query.stock) > 0) {
+        surroundDiv.innerHTML += "<h3 style='color:lime'>In Stock</h3>";
+    } else {
+        surroundDiv.innerHTML += "<h3 style='color:red'>Out of Stock</h3>";
+    }
+    var image = document.createElement("img");
+    image.src = "/viciouscycles/images/bikes/" + query.name.replace(/ /g, "_") + ".jpg";
+    surroundDiv.append(image);
+}
+function ajax(url, callback) {
+    var xHttp = new XMLHttpRequest();
+    xHttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            callback(this.responseText);
+        }
+    }
+    xHttp.open("GET", url, true);
+    xHttp.send();
+}
+
+ajax("/viciouscycles/json/stock.json", analyzeData);
+    </script>
+    <footer>
+
+    </footer>
+</body>
+</html>

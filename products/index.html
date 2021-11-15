@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vicious Cycles Bike Shop</title>
+    <link rel="stylesheet" href="/viciouscycles/css/styles.css" type="text/css">
+</head>
+<body>
+
+    <!--Header bar-->
+    <div id="headerBar">
+        
+        <header>
+            <a href="/viciouscycles/">
+                <img src="/viciouscycles/images/logo.png" alt="Vicious Cycles">
+            </a>
+        </header>
+
+        <nav>
+            <div id="mobile-nav">
+                <a onclick="menuToggle()" id="hamburger">&#9776;</a>
+            </div>
+            <div id="desktop-nav">
+                <a href="/viciouscycles/">Home</a>
+                <a href="">Products</a>
+                <a href="">About Us</a>
+                <a href="">Contact Us</a>
+            </div>
+        </nav>
+
+    </div>
+
+    <!--Hero image-->
+    <img src="/viciouscycles/images/hero3.jpg" alt="" class="hero-image">
+
+    <div class="heroText">
+        <h1>Here you can find whatever you need for your biking experience!</h1>
+    </div>
+
+    <main>
+        <!--Form container-->
+        <fieldset>
+            <legend><h1>Find your Bike</h1></legend>
+
+            <!--Form-->
+            <form action="/viciouscycles/products/search/" method="get">
+                <h3>Find your Brand</h3>
+                <label for="giant">Giant</label>
+                <input type="checkbox" id="giant" name="giant" class="checkbox">
+
+                <label for="diamondback">Diamondback</label>
+                <input type="checkbox" id="diamondback" name="diamondback" class="checkbox">
+
+                <label for="huffy">Huffy</label>
+                <input type="checkbox" id="huffy" name="huffy" class="checkbox">
+
+                <label for="kona">Kona</label>
+                <input type="checkbox" id="kona" name="kona" class="checkbox">
+
+                <label for="raleigh">Raleigh</label>
+                <input type="checkbox" id="raleigh" name="raleigh" class="checkbox">
+
+                <label for="orbea">Orbea</label>
+                <input type="checkbox" id="orbea" name="orbea" class="checkbox">
+
+                <h3>Select Your Type of Bike</h3>
+                <select name="type" id="type">
+                    <option value="all">All</option>
+                    <option value="kid">Kids' Bike</option>
+                    <option value="commuter">Commuter Bike</option>
+                    <option value="mountain">Mountain Bike</option>
+                </select>
+
+                <h3>What are you looking for?</h3>
+                <label for="productBike" class="noBreak">Bikes</label>
+                <input type="radio" name="productType" id="productBike" value="bikes">
+                <label for="productBike" class="noBreak">Accessories</label>
+                <input type="radio" name="productType" id="productAccessory" value="accessories">
+                <input type="text" id="query" name="q">
+
+                <h3>What is your budget?</h3>
+                <input type="number" id="budget" name="budget" step="1000" min="0" value="1000">
+
+                <h3>What is the minimum price you are looking for?</h3>
+                <input type="number" id="budgetMin" name="budgetMin" step="100" min="0" value="0">
+
+                <h3>Anything else?</h3>
+                <textarea name="other" id="other" cols="30" rows="2"></textarea>
+                
+                <input type="submit" value="Check our Stock" id="submitButton">
+            </form>
+        </fieldset>
+    </main>
+    <script src="/viciouscycles/scripts/hamburger.js"></script>
+
+    <footer>
+        <a href="https://facebook.com"><img src="/viciouscycles/images/facebook.png" alt="Facebook"></a>
+        <a href="https://twitter.com"><img src="/viciouscycles/images/twitter.png" alt="Twitter"></a>
+        <p>&copy;Jesse Mindel 2021</p>
+    </footer>
+</body>
+</html>
