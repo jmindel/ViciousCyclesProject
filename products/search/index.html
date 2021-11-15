@@ -143,9 +143,6 @@ function createEntry(query) {
     } else {
         surroundDiv.innerHTML += "<h3 style='color:red'>Out of Stock</h3>";
     }
-    var image = document.createElement("img");
-    image.src = "/viciouscycles/images/bikes/" + query.name.replace(/ /g, "_") + ".jpg";
-    surroundDiv.append(image);
 }
 function ajax(url, callback) {
     var xHttp = new XMLHttpRequest();
