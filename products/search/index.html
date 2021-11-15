@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vicious Cycles Bike Shop</title>
-    <link rel="stylesheet" href="/viciouscycles/css/styles.css" type="text/css">
+    <link rel="stylesheet" href="/viciouscyclesproject/css/styles.css" type="text/css">
 </head>
 <body>
     <div id="headerBar">
         <header>
             <a href="">
-                <img src="/viciouscycles/images/logo.png" alt="Vicious Cycles">
+                <img src="/viciouscyclesproject/images/logo.png" alt="Vicious Cycles">
             </a>
         </header>
         <nav>
@@ -28,7 +28,7 @@
     <main>
         <div id="searchDiv"></div>
     </main>
-    <script src="/viciouscycles/scripts/hamburger.js"></script>
+    <script src="/viciouscyclesproject/scripts/hamburger.js"></script>
     <script>
     //Window URL
     var url = window.location.href;
@@ -133,7 +133,7 @@ var brands = {
 function createEntry(query) {
     var surroundDiv = document.createElement("div");
     var link = document.createElement("a");
-    link.href = "/viciouscycles/products/bikes/" + query.brand.toLowerCase() + "/" + query.name.replace(/ /g, "_").toLowerCase() + ".html";
+    link.href = "/viciouscyclesproject/products/bikes/" + query.brand.toLowerCase() + "/" + query.name.replace(/ /g, "_").toLowerCase() + ".html";
     surroundDiv.className = "entryDiv";
     document.getElementById("searchDiv").append(link);
     link.append(surroundDiv)
@@ -155,7 +155,7 @@ function ajax(url, callback) {
     xHttp.send();
 }
 
-ajax("/viciouscycles/json/stock.json", analyzeData);
+ajax("/viciouscyclesproject/json/stock.json", analyzeData);
     </script>
     <footer>
 
