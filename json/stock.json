@@ -1,0 +1,215 @@
+{
+    "brands": {
+        "giant": [
+            {
+                "name": "Anthem Advanced Pro 29-1",
+                "class": "Mountain",
+                "stock": 9,
+                "price": "$6150",
+                "brand": "Giant",
+                "description": "Engineered with a full composite frameset including the front triangle and rear swingarm, this 29er has 90mm of smooth rear suspension travel and 100mm up front. The Maestro rear suspension system includes a trunnion mount shock that produces a lower leverage ratio for efficient pedaling and braking performance. The innovative linkage makes room for shorter chainstays to improve climbing capabilities and overall agility. The Advanced Forged Composite upper rocker arm is lighter, stiffer and stronger than aluminum, and other updates include wider Boost hub spacing and an integrated Giant WheelSystem that gives you super strong and stiff wheels for confident, precise handling on XC terrain.",
+                "specs": {
+                    "Sizes": "S, M, L, XL",
+                    "Colors": "Matte Black/Gloss Carbon/Chrome",
+                    "Frame": "Advanced-Grade Composite front and rear triangles, 90mm Maestro suspension",
+                    "Fork": "Fox 32 Float SC Performance Elite Remote, 100mm, FIT4 damper, remote lockout, Boost 15x110 Kabolt, 44mm offset, custom tuned for Giant",
+                    "Shock": "Fox Float DPS Performance Elite Remote, 165/42.5, custom tuned for Giant",
+                    "Handlebar": "Giant Contact SLR XC Flat, 31.8",
+                    "Stem": "Giant Contact SL",
+                    "Seatpost": "Giant Contact, composite, 27.2mm",
+                    "Saddle": "Contact SL (neutral), composite base, SST rails, UniClip accessory mount",
+                    "Pedals": "N/A",
+                    "Shifters": "Shimano Deore XT",
+                    "Front Derailleur": "N/A",
+                    "Rear Derailleur": "Shimano Deore XT, Shadow+",
+                    "Brakes": "Shimano Deore XT hydraulic (F:180mm, R:160mm)",
+                    "Brake Levers": "Shimano Deore XT",
+                    "Cassette": "Shimano Deore XT, 12-speed, 10x51",
+                    "Chain": "KMC X-12",
+                    "Crankset": "Shimano Deore XT, 32t",
+                    "Bottom Bracket": "Shimano, press fit",
+                    "Rims": "Giant XCR-1 29 Carbon WheelSystem, 25mm inner",
+                    "Hubs": "Giant XCR-1 29 WheelSystem, Boost",
+                    "Spokes": "Giant XCR-1 29 WheelSystem, DBL technology",
+                    "Tires": "Maxxis Recon Race 29x2.25, foldable, TLR, EXO, tubeless",
+                    "Extras": "Tubeless prepared",
+                    "Weight": "The most accurate way to determine any bike’s weight is to have your local dealer weigh it for you. Many brands strive to list the lowest possible weight, but in reality weight can vary based on size, finish, hardware and accessories. All our bikes are designed for best-in-class weight and ride quality."
+                }
+            },
+
+
+
+            {
+                "name": "Trance Advanced Pro 29-1",
+                "class": "Mountain",
+                "stock": 14,
+                "price": "$5900",
+                "brand": "Giant",
+                "description": "This new member of the Trance family is designed with a longer travel suspension setup for added control on the most challenging trails. The full composite frame is engineered The Trance Advanced Pro 29 features a full composite frame that’s fitted with our most up-to-date Maestro suspension. The Advanced Forged composite rocker arm and trunnion-mount shock help produce 115mm of smooth rear-wheel travel that’s active and sensitive to small bumps, giving you killer traction and confident control. And the frame geometry is updated with progressive headtube and seattube angles, shorter chainstays and a longer toptube—all engineered to balance the speed and control of its 29-inch wheels with the quickness and agility you need to rail corners, hammer through rock gardens and do it all with confidence and control.",
+                "specs": {
+                    "Sizes": "S, M, L, XL",
+                    "Colors": "Carbon/Chameleon Mars",
+                    "Frame": "Advanced-Grade Composite front and rear triangles, 115mm Maestro suspension",
+                    "Fork": "Fox 34 Performance Elite, 130mm, FIT4 damper, 15x110 Kabolt, 44mm offset, custom tuned for Giant",
+                    "Shock": "Fox Float DPX2 Performance Elite, 165/42.5, custom tuned for Giant",
+                    "Handlebar": "Giant Contact SLR Trail, composite, 35",
+                    "Stem": "Giant Contact SL 35",
+                    "Seatpost": "Giant Contact Switch dropper with remote, 30.9",
+                    "Saddle": "Giant Romero SL, SST rails",
+                    "Pedals": "N/A",
+                    "Shifters": "Shimano Deore XT",
+                    "Front Derailleur": "N/A",
+                    "Rear Derailleur": "Shimano Deore XT, Shadow+",
+                    "Brakes": "Shimano Deore XT hydraulic, 180mm",
+                    "Brake Levers": "Shimano Deore XT",
+                    "Cassette": "Shimano Deore XT, 12-speed, 10x51",
+                    "Chain": "KMC X-12",
+                    "Crankset": "Shimano Deore XT, 30t",
+                    "Bottom Bracket": "Shimano, press fit",
+                    "Rims": "Giant TRX-1 29 Carbon WheelSystem, 30mm inner",
+                    "Hubs": "Giant TRX-1 29 WheelSystem, Boost",
+                    "Spokes": "Giant TRX-1 29 WheelSystem, DBL technology",
+                    "Tires": "[F] Maxxis Minion DHF, tubeless, 29x2.3, 3C, EXO, TR [R] Maxxis Aggressor, tubeless, 29x2.3, 3C, EXO, TR",
+                    "Extras": "Tubeless prepared",
+                    "Weight": "The most accurate way to determine any bike’s weight is to have your local dealer weigh it for you. Many brands strive to list the lowest possible weight, but in reality weight can vary based on size, finish, hardware and accessories. All our bikes are designed for best-in-class weight and ride quality."
+                }
+            },
+
+
+
+
+
+
+
+            {
+                "name": "Talon 1",
+                "class": "Mountain",
+                "stock": 9,
+                "price": "$960",
+                "brand": "Giant",
+                "description": "Built on a new lightweight ALUXX aluminum frame that features classic hardtail design plus the balanced riding characteristics of either larger diameter 29-inch or 27.5-inch wheels, Talon is a great choice for XC or light trail terrain. The frame geometry is specifically designed to adapt to its respective wheel size and either an 80mm or 100mm suspension fork (depending on frame size). It’s a confident ride that’s perfect for ambitious riders who want to take their off-road skills to the next level.",
+                "specs": {
+                    "Sizes": "27.5: XS,S 29: M,L,XL",
+                    "Colors": "Desert Sage, Black",
+                    "Frame": "ALUXX-Grade Aluminum, disc",
+                    "Fork": "Rock Shox Judy, 80mm (27.5 XS & S sizes only) 100mm (29” S ~XL Size | 27.5 = M~XL), Turnkey remote, Coil spring, 9mm QR or SXC32-2 RL 29 (100mm travel) or SXC32-2 RL 27.5 (80mm travel), air spring, QR, alloy steerer, rebound adjust",
+                    "Shock": "N/A",
+                    "Handlebar": "Giant Connect Trail, 31.8",
+                    "Stem": "Giant Sport, 7-degree",
+                    "Seatpost": "Giant Sport, 30.9",
+                    "Saddle": "Giant Sport Custom",
+                    "Pedals": "Platform",
+                    "Shifters": "Shimano Deore",
+                    "Front Derailleur": "N/A",
+                    "Rear Derailleur": "Shimano Deore XT",
+                    "Brakes": "Tektro TKD143, hydraulic (F:180mm, R:160mm)",
+                    "Brake Levers": "Tektro TKD143",
+                    "Cassette": "Shimano Deore, 10-speed, 11x42",
+                    "Chain": "KMC X10",
+                    "Crankset": "ProWheel Charm (27.5: 30t, 29: 32t)",
+                    "Bottom Bracket": "cartridge",
+                    "Rims": "Giant GX03V 27.5 or 29 wheelset, alloy, double wall, 21mm inner",
+                    "Hubs": "Giant Sport Tracker, 32h",
+                    "Spokes": "Stainless",
+                    "Tires": "Maxxis Rekon 27.5 or 29x2.4, wire bead",
+                    "Weight": "The most accurate way to determine any bike’s weight is to have your local dealer weigh it for you. Many brands strive to list the lowest possible weight, but in reality weight can vary based on size, finish, hardware and accessories. All our bikes are designed for best-in-class weight and ride quality."
+                }
+            }
+        ],
+
+
+
+
+
+        "diamondback": [
+            {
+                "name": "Metric 24",
+                "class": "Kids",
+                "stock": 11,
+                "price": "$475",
+                "brand": "Diamondback",
+                "description": "The Metric 24 is a 24-inch bike designed for kids ready to adventure beyond the neighborhood. This durable aluminum bike rolls fast and is lightweight to easily lift onto a bike rack. Just like our adult-size flat bar road bikes, the Metric 24 features flat bars, signature Diamondback design, and quality Shimano parts. Soft rubber handlebar grips and a Diamondback Jr. Padded Road bike seat keep young riders comfortable on longer rides, while smooth-rolling 24×1.75-inch tires let them keep up with their crew. The Metric 24 does double-duty as a ride to school and as a weekend getaway machine to cruise the bike path or explore around town with friends or family.",
+                "specs": {
+                    "Colors": "Blue Vibe",
+                    "Frame": "24\" Low Standover 6061 Aluminum w/Replaceable Hanger",
+                    "Fork": "24\" Hi-Ten Rigid, V-Mounts",
+                    "Headset": "1-1/8\" Threadless",
+                    "Handlebar": "580mm Aluminum 31.8, 25mm Rise",
+                    "Grips": "Soft Kraton Rubber",
+                    "Stem": "Aluminum Ahead 60mm x 7° 31.8",
+                    "Seatpost": "Aluminum Micro Adjust 27.2 x 300mm",
+                    "Seat": "Diamondback Jr. Padded",
+                    "Pedals": "Resin Platform",
+                    "Shifters": "Shimano Revo 7 Speed (Rear)",
+                    "Rear Derailleur": "Shimano Tourney FT 6/7 super short cage",
+                    "Brakes": "Aluminum V-Brake",
+                    "Brake Levers": "Aluminum V-Brake",
+                    "Cogset": "Shimano TZ21 7 Speed (13-28t)",
+                    "Chain": "KMC Z51",
+                    "Crankset": "152mm 3pc Steel, 36t w/Double Guard",
+                    "Bottom Bracket": "Sealed Mech Loose Ball",
+                    "Rims": "Aluminum Anodized 28h",
+                    "Front Hub": "Aluminum 28h Nutted",
+                    "Rear Hub": "Aluminum 28h Nutted Freewheel",
+                    "Spokes": "14g",
+                    "Tires": "24x1.75\"",
+                    "Extras": "Fender Mounts",
+                    "Weight": "23.3"
+                }
+            },
+
+
+            {
+                "name": "Division 24",
+                "class": "Kids",
+                "stock": 6,
+                "price": "$575",
+                "brand": "Diamondback",
+                "description": "For the kid who doesn’t want to be confined to the sidewalk, the Division 24 will open up a world of awesome possibilities. Whether it’s quick trips to the park or friends’ houses, rides to school, or riding around town with their crew, the Division 24 can handle whatever pavement comes their way. Made for kids 9 to 12 years old or 54”-61” in height, this do it all bike is super slick and super fun! An urban assault bike, it eats bumps for breakfast, and gobbles curbs for lunch. Like a mountain bike made for the city street, the Division 24 is the ultimate multiuse kids bike. Designed with a lightweight frame and rigid alloy fork, the Division 24 is light enough to lift up the stairs to school but durable enough for hardcore street use. Featuring 7 gears and mechanical disc brakes, this bike is smooth shifting and low maintenance with serious braking power for wet and dirty conditions. Big wide tires roll over almost anything in their path.",
+                "specs": {
+                    "Color": "Saffron Yellow Matte",
+                    "Frame": "24\" 6061 Aluminum w/Replaceable Hanger",
+                    "Fork": "24\" Rigid Aluminum Fork",
+                    "Headset": "1 1/8\" Threadless",
+                    "Handlebar": "580mm Aluminum 31.8, 25mm Rise",
+                    "Grips": "Jr. Soft PVC",
+                    "Stem": "Aluminum Ahead 60mm x 7° 31.8",
+                    "Seatpost": "Aluminum Micro Adjust 27.2 x 300mm",
+                    "Seat": "Jr. Mountain",
+                    "Pedals": "Resin Platform",
+                    "Shifters": "Shimano Revo 7 Speed",
+                    "Rear Derailleur": "Shimano Tourney",
+                    "Brakes": "Mechanical Disc Brakes w/160mm Rotor",
+                    "Brake Levers": "Aluminum w/ Adjustable Reach",
+                    "Cogset": "7 Speed 14-32 Freewheel",
+                    "Chain": "KMC Z51",
+                    "Crankset": "152mm Aluminum 36t w/Double Guard",
+                    "Bottom Bracket": "Sealed Mech Loose Ball",
+                    "Rims": "Aluminum Anodized 32h Double Wall Disc",
+                    "Front Hub": "Aluminum Disc 32h",
+                    "Rear Hub": "Aluminum Disc 32h, Freewheel",
+                    "Spokes": "14g",
+                    "Tires": "Kenda Kruiser 24X2.125",
+                    "Extras": "Tool Kit",
+                    "Weight": "24"
+                }
+            }
+        ],
+
+        "huffy": [
+
+        ],
+
+        "kona": [
+
+        ],
+        
+        "raleigh": [
+
+        ],
+        
+        "orbea": [
+
+        ]
+    }
+}
