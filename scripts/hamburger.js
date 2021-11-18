@@ -9,3 +9,13 @@ function menuToggle() {
         nav.style.display = "block";
     }
 }
+
+//Basic link function
+function link(url) {
+    window.location = url;
+}
+
+//Previous tab
+function goBack() {
+    window.history.back();
+}

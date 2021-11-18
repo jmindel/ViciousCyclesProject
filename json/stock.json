@@ -5,7 +5,7 @@
                 "name": "Anthem Advanced Pro 29-1",
                 "class": "Mountain",
                 "stock": 9,
-                "price": "$6150",
+                "price": "6150",
                 "brand": "Giant",
                 "description": "Engineered with a full composite frameset including the front triangle and rear swingarm, this 29er has 90mm of smooth rear suspension travel and 100mm up front. The Maestro rear suspension system includes a trunnion mount shock that produces a lower leverage ratio for efficient pedaling and braking performance. The innovative linkage makes room for shorter chainstays to improve climbing capabilities and overall agility. The Advanced Forged Composite upper rocker arm is lighter, stiffer and stronger than aluminum, and other updates include wider Boost hub spacing and an integrated Giant WheelSystem that gives you super strong and stiff wheels for confident, precise handling on XC terrain.",
                 "specs": {
@@ -43,7 +43,7 @@
                 "name": "Trance Advanced Pro 29-1",
                 "class": "Mountain",
                 "stock": 14,
-                "price": "$5900",
+                "price": "5900",
                 "brand": "Giant",
                 "description": "This new member of the Trance family is designed with a longer travel suspension setup for added control on the most challenging trails. The full composite frame is engineered The Trance Advanced Pro 29 features a full composite frame that’s fitted with our most up-to-date Maestro suspension. The Advanced Forged composite rocker arm and trunnion-mount shock help produce 115mm of smooth rear-wheel travel that’s active and sensitive to small bumps, giving you killer traction and confident control. And the frame geometry is updated with progressive headtube and seattube angles, shorter chainstays and a longer toptube—all engineered to balance the speed and control of its 29-inch wheels with the quickness and agility you need to rail corners, hammer through rock gardens and do it all with confidence and control.",
                 "specs": {
@@ -85,7 +85,7 @@
                 "name": "Talon 1",
                 "class": "Mountain",
                 "stock": 9,
-                "price": "$960",
+                "price": "960",
                 "brand": "Giant",
                 "description": "Built on a new lightweight ALUXX aluminum frame that features classic hardtail design plus the balanced riding characteristics of either larger diameter 29-inch or 27.5-inch wheels, Talon is a great choice for XC or light trail terrain. The frame geometry is specifically designed to adapt to its respective wheel size and either an 80mm or 100mm suspension fork (depending on frame size). It’s a confident ride that’s perfect for ambitious riders who want to take their off-road skills to the next level.",
                 "specs": {
@@ -124,9 +124,9 @@
         "diamondback": [
             {
                 "name": "Metric 24",
-                "class": "Kids",
+                "class": "Kid",
                 "stock": 11,
-                "price": "$475",
+                "price": "475",
                 "brand": "Diamondback",
                 "description": "The Metric 24 is a 24-inch bike designed for kids ready to adventure beyond the neighborhood. This durable aluminum bike rolls fast and is lightweight to easily lift onto a bike rack. Just like our adult-size flat bar road bikes, the Metric 24 features flat bars, signature Diamondback design, and quality Shimano parts. Soft rubber handlebar grips and a Diamondback Jr. Padded Road bike seat keep young riders comfortable on longer rides, while smooth-rolling 24×1.75-inch tires let them keep up with their crew. The Metric 24 does double-duty as a ride to school and as a weekend getaway machine to cruise the bike path or explore around town with friends or family.",
                 "specs": {
@@ -161,9 +161,9 @@
 
             {
                 "name": "Division 24",
-                "class": "Kids",
+                "class": "Kid",
                 "stock": 6,
-                "price": "$575",
+                "price": "575",
                 "brand": "Diamondback",
                 "description": "For the kid who doesn’t want to be confined to the sidewalk, the Division 24 will open up a world of awesome possibilities. Whether it’s quick trips to the park or friends’ houses, rides to school, or riding around town with their crew, the Division 24 can handle whatever pavement comes their way. Made for kids 9 to 12 years old or 54”-61” in height, this do it all bike is super slick and super fun! An urban assault bike, it eats bumps for breakfast, and gobbles curbs for lunch. Like a mountain bike made for the city street, the Division 24 is the ultimate multiuse kids bike. Designed with a lightweight frame and rigid alloy fork, the Division 24 is light enough to lift up the stairs to school but durable enough for hardcore street use. Featuring 7 gears and mechanical disc brakes, this bike is smooth shifting and low maintenance with serious braking power for wet and dirty conditions. Big wide tires roll over almost anything in their path.",
                 "specs": {
@@ -197,7 +197,26 @@
         ],
 
         "huffy": [
-
+            {
+                "name": "Casoria Men's Comfort Bike",
+                "class": "Commuter",
+                "stock": 4,
+                "price": "289.99",
+                "brand": "Huffy",
+                "description": "",
+                "specs": {
+                    "Color": "Blue",
+                    "Wheel Size": "27.5in",
+                    "Recommended Height": "Recommended for Adults",
+                    "Recommended Age": "Adult",
+                    "Shifters": "Smooth 7-speed SHIMANO Revoshift",
+                    "Rear Derailleur": "SHIMANO rear derailleur",
+                    "Speed": "07",
+                    "Style": "Comfort",
+                    "Brake Type": "Steel Linear Pull",
+                    "Aluminum Frame": "Aluminum"
+                }
+            }
         ],
 
         "kona": [

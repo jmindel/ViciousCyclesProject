@@ -1,3 +1,4 @@
+//Ajax get function
 function ajax(url, callback) {
     var xHttp = new XMLHttpRequest();
     xHttp.onreadystatechange = function() {
@@ -9,7 +10,10 @@ function ajax(url, callback) {
     xHttp.send();
 }
 
+//Get stock info
 ajax("/viciouscyclesproject/json/stock.json", analyzeData);
+
+//Creates info display based on filename
 function analyzeData(rawData) {
     var bikeName = window.location.href.split("/")[window.location.href.split("/").length-1].split(".html")[0].replace(/_/g, " ");
     data = JSON.parse(rawData);
@@ -23,7 +27,7 @@ function analyzeData(rawData) {
         }
     }
     var container = document.getElementById("bikeInfoContainer");
-    container.innerHTML += "<div class='bikeInfo'><h1>"+bike.name+"</h1><h1>"+bike.class+" Bike</h1><h1>Price: "+bike.price+"</h1></div>";
+    container.innerHTML += "<div class='bikeInfo'><h1>"+bike.name+"</h1><h1>"+bike.class+" Bike</h1><h1>Price: $"+bike.price+"</h1></div>";
     
     
     container.innerHTML += "<h3 class='description'>"+bike.description+"</h3>";

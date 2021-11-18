@@ -24,8 +24,8 @@
             <div id="desktop-nav">
                 <a href="/viciouscyclesproject/">Home</a>
                 <a href="">Products</a>
-                <a href="">About Us</a>
-                <a href="">Contact Us</a>
+                <a href="/viciouscyclesproject/about">About Us</a>
+                <a href="/viciouscyclesproject/contact">Contact Us</a>
             </div>
         </nav>
 
@@ -39,6 +39,9 @@
     </div>
 
     <main>
+        <h3>Vicious Cycle products can be purchased/ordered at our store. Come down today and we'll get started with a purchase of an existing bike with cash, credit, or in-house loan approval.</h3>
+        <h3>All custom builds will require a 25% down payment before projects will begin, and either payment in full, or an approved in-house loan, or a transfer of funds to a third-party vendor. All purchases on custom cycles are final.</h3>
+        
         <!--Form container-->
         <fieldset>
             <legend><h1>Find your Bike</h1></legend>
@@ -74,16 +77,16 @@
 
                 <h3>What are you looking for?</h3>
                 <label for="productBike" class="noBreak">Bikes</label>
-                <input type="radio" name="productType" id="productBike" value="bikes">
+                <input type="radio" name="productType" id="productBike" value="bikes" checked>
                 <label for="productBike" class="noBreak">Accessories</label>
                 <input type="radio" name="productType" id="productAccessory" value="accessories">
                 <input type="text" id="query" name="q">
 
                 <h3>What is your budget?</h3>
-                <input type="number" id="budget" name="budget" step="1000" min="0" value="1000">
+                <input type="number" id="budget" name="budget" step="1000" min="0">
 
                 <h3>What is the minimum price you are looking for?</h3>
-                <input type="number" id="budgetMin" name="budgetMin" step="100" min="0" value="0">
+                <input type="number" id="budgetMin" name="budgetMin" step="100" min="0">
 
                 <h3>Anything else?</h3>
                 <textarea name="other" id="other" cols="30" rows="2"></textarea>

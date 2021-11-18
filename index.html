@@ -11,7 +11,7 @@
     <!--Header bar-->
     <div id="headerBar">
         <header>
-            <a href="#">
+            <a href="">
                 <img src="images/logo.png" alt="Vicious Cycles">
             </a>
         </header>
@@ -22,8 +22,8 @@
             <div id="desktop-nav">
                 <a href="">Home</a>
                 <a href="products/">Products</a>
-                <a href="">About Us</a>
-                <a href="">Contact Us</a>
+                <a href="about/">About Us</a>
+                <a href="contact/">Contact Us</a>
             </div>
         </nav>
     </div>
@@ -43,22 +43,22 @@
         <h1>Vicious Cycles carries the following brands:</h1>
         <!--Brand grid-->
         <div class="brandGrid x3">
-            <a href="#" class="brandGridItem">
+            <a href="products/search/?giant=on&type=all" class="brandGridItem">
                 GIANT
             </a>
-            <a href="#" class="brandGridItem">
+            <a href="products/search/?diamondback=on&type=all" class="brandGridItem">
                 DIAMONDBACK
             </a>
-            <a href="#" class="brandGridItem">
+            <a href="products/search/?huffy=on&type=all" class="brandGridItem">
                 HUFFY
             </a>
-            <a href="#" class="brandGridItem">
+            <a href="products/search/?kona=on&type=all" class="brandGridItem">
                 KONA
             </a>
-            <a href="#" class="brandGridItem">
+            <a href="products/search/?raleigh=on&type=all" class="brandGridItem">
                 RALEIGH
             </a>
-            <a href="#" class="brandGridItem">
+            <a href="products/search/?orbea=on&type=all" class="brandGridItem">
                 ORBEA
             </a>
         </div>
@@ -74,22 +74,18 @@
         <h1>What do you want to buy?</h1>
 
         <!--Products grid-->
-        <div class="brandGrid x4">
-            <div class="brandGridItem">
+        <div class="brandGrid x3">
+            <div class="brandGridItem" onclick="link('products/search?type=kid')">
                 <img src="images/kidbike-small.jpg" alt="Kid Bike">
                 <h2>KIDS' BIKES</h2>
             </div>
-            <div class="brandGridItem">
+            <div class="brandGridItem" onclick="link('products/search?type=mountain')">
                 <img src="images/mountainbike-small.jpg" alt="Mountain Bike">
                 <h2>MOUNTAIN BIKES</h2>
             </div>
-            <div class="brandGridItem">
+            <div class="brandGridItem" onclick="link('products/search?type=commuter')">
                 <img src="images/commuterbike-small.jpg" alt="Commuter Bike">
                 <h2>COMMUTER BIKES</h2>
-            </div>
-            <div class="brandGridItem middleGridItem">
-                <img src="images/bottle-small.jpg" alt="Water Bottle">
-                <h2>ACCESSORIES</h2>
             </div>
         </div>
         <div id="philosophy">
