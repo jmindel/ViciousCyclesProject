@@ -35,12 +35,29 @@
     <img src="/viciouscyclesproject/images/hero3.jpg" alt="" class="hero-image">
 
     <div class="heroText">
-        <h1>Here you can find whatever you need for your biking experience!</h1>
+        <h1>Check out our bikes!</h1>
     </div>
 
     <main>
         <h3>Vicious Cycle products can be purchased/ordered at our store. Come down today and we'll get started with a purchase of an existing bike with cash, credit, or in-house loan approval.</h3>
         <h3>All custom builds will require a 25% down payment before projects will begin, and either payment in full, or an approved in-house loan, or a transfer of funds to a third-party vendor. All purchases on custom cycles are final.</h3>
+        
+
+        <h1>Vicious Cycles carries the following bike types:</h1>
+        <div class="brandGrid x3">
+            <div class="brandGridItem" onclick="link('products/search?type=kid')">
+                <img src="/viciouscyclesproject/images/kidbike-small.jpg" alt="Kid Bike">
+                <h2>KIDS' BIKES</h2>
+            </div>
+            <div class="brandGridItem" onclick="link('products/search?type=mountain')">
+                <img src="/viciouscyclesproject/images/mountainbike-small.jpg" alt="Mountain Bike">
+                <h2>MOUNTAIN BIKES</h2>
+            </div>
+            <div class="brandGridItem" onclick="link('products/search?type=commuter')">
+                <img src="/viciouscyclesproject/images/commuterbike-small.jpg" alt="Commuter Bike">
+                <h2>COMMUTER BIKES</h2>
+            </div>
+        </div>
         
         <!--Form container-->
         <fieldset>
@@ -75,17 +92,20 @@
                     <option value="mountain">Mountain Bike</option>
                 </select>
 
-                <h3>What are you looking for?</h3>
+                <h3>Type of Product</h3>
+                <!--Note: the following radio buttons do not do anything in the form receive page-->
                 <label for="productBike" class="noBreak">Bikes</label>
                 <input type="radio" name="productType" id="productBike" value="bikes" checked>
                 <label for="productBike" class="noBreak">Accessories</label>
                 <input type="radio" name="productType" id="productAccessory" value="accessories">
+
+                <h3>What are you looking for?</h3>
                 <input type="text" id="query" name="q">
 
-                <h3>What is your budget?</h3>
+                <h3>Maximum Price</h3>
                 <input type="number" id="budget" name="budget" step="1000" min="0">
 
-                <h3>What is the minimum price you are looking for?</h3>
+                <h3>Minimum Price</h3>
                 <input type="number" id="budgetMin" name="budgetMin" step="100" min="0">
 
                 <h3>Anything else?</h3>
@@ -101,6 +121,7 @@
         <a href="https://facebook.com"><img src="/viciouscyclesproject/images/facebook.png" alt="Facebook"></a>
         <a href="https://twitter.com"><img src="/viciouscyclesproject/images/twitter.png" alt="Twitter"></a>
         <p>&copy;Jesse Mindel 2021</p>
+        <a href="mailto:jmindel@viciouscycles.com">jmindel@viciouscycles.com</a>
     </footer>
 </body>
 </html>

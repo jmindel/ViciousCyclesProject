@@ -45,6 +45,12 @@ li a {
 
 h2 {
     text-decoration: none!important;
+    line-height: 1.5em;
+}
+
+h3 {
+    text-decoration: none!important;
+    line-height: 1.4em;
 }
 /*Mobile styles*/
 @media screen and (max-width: 700px) {
@@ -73,6 +79,11 @@ h2 {
         clear:right;
         margin: 0 auto;
         width: 90vw;
+    }
+
+    #bikeInfoContainer img {
+        width: 90vw;
+        border-radius: 1vw;
     }
     
     #searchDiv {
@@ -109,6 +120,12 @@ h2 {
         color: black;
         font-size: 2.5vw;
         text-shadow: 0.05vw 0.05vw black; 
+    }
+
+    .entryDiv img {
+        width: 60%;
+        margin: 0 auto;
+        border-radius: 0.5vw;
     }
 
     .paragraph {
@@ -355,6 +372,7 @@ h2 {
 
     .bikeInfo h1 {
         font-size: 5.5vw;
+
     }
 
     .specs-table {
@@ -439,6 +457,10 @@ h2 {
 
     #bikeInfoContainer {
         clear:right;
+    }
+    #bikeInfoContainer img {
+        width: 40vw;
+        border-radius: 0.4vw;
     }
 
     a.brandGridItem {
@@ -543,12 +565,7 @@ h2 {
     .x3 {
         grid-template-columns: 1fr 1fr 1fr;
     }
-
-    /*Grid: 4 columns wide*/
-    .x4 {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-
+    
     /*Grid item*/
     .brandGridItem {
         background-color: rgb(190, 190, 190);
@@ -598,6 +615,12 @@ h2 {
         padding: 0.25vw;
     }
 
+    select {
+        padding: 0.25vw;
+        font-size: 1.5vw;
+        border-radius: 0.25vw;
+    }
+
     #query {
         display: block;
         margin: 0.5vw auto;
@@ -606,6 +629,13 @@ h2 {
     .checkbox {
         display: inline-block;
         margin-right: 1.5vw;
+        width: 1.5vw;
+        height: 1.5vw;
+    }
+
+    input[type=radio] {
+        width: 1.4vw;
+        height: 1.4vw;
     }
 
     textarea {
@@ -674,6 +704,7 @@ h2 {
     .entryDiv img {
         width: 60%;
         margin: 0 auto;
+        border-radius: 0.25vw;
     }
 
     /*Bike info styles*/
@@ -693,7 +724,9 @@ h2 {
     }
 
     .bikeInfo {
-        margin-top: 5vw;
+        float: right;
+        margin-top: 1.75vw;
+        width: 50vw;
     }
 
     .specs-table {

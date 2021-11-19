@@ -220,15 +220,113 @@
         ],
 
         "kona": [
-
+            {
+                "name": "Process 153 DL 29",
+                "class": "Mountain",
+                "stock": 0,
+                "price": "3999",
+                "brand": "Kona",
+                "description": "The Process 153 DL 29 has been the steed of choice for enduro rippers all over the world. It’s the perfect balance of descending prowess and climbing efficiency. We’ve built this bike to be ready to dominate right out of the box, but there are easy ways to upgrade should you choose to do so. With 160mm of front travel and 153mm in the rear, burly Maxxis tires and ultra-supportive suspension the Process 153 DL 29 will become your most reliable trail slayer.",
+                "specs": {
+                    "FRAME MATERIAL": "Kona 6061 Aluminum Butted 153mm Travel",
+                    "SIZES": "M, L, XL",
+                    "REAR SHOCK": "RockShox Super Deluxe Select Plus Trunnion",
+                    "FORK": "RockShox Lyrik Select RC Charger DebonAir 160mm Tapered 110mm Spacing",
+                    "CRANKARMS": "SRAM NX Eagle DUB",
+                    "CHAINRINGS": "32t X-Sync Eagle",
+                    "B/B": "SRAM DUB PF92",
+                    "CHAIN": "SRAM SX-Eagle",
+                    "FREEWHEEL": "SRAM NX-Eagle 11-50t 12spd",
+                    "R/D": "SRAM GX-Eagle",
+                    "SHIFTERS":	"SRAM NX-Eagle",
+                    "BRAKE CALIPERS": "SRAM G2 RS",
+                    "FRONT BRAKE ROTOR": "SRAM Centerline 200mm",
+                    "REAR BRAKE ROTOR":	"SRAM Centerline 180mm",
+                    "BRAKE LEVERS":	"SRAM G2 RS",
+                    "HEADSET": "FSA Orbit 1.5 E ZS",
+                    "HANDLEBAR": "Kona XC/BC 35",
+                    "STEM":	"Kona XC/BC 35",
+                    "SEATPOST":	"TranzX Dropper +RAD Internal 31.6mm",
+                    "SEAT CLAMP": "Kona Clamp",
+                    "GRIPS": "Kona Key Grip",
+                    "SADDLE": "WTB Volt",
+                    "FRONT HUB": "Formula 110x15mm",
+                    "REAR HUB":	"Formula 148x12mm",
+                    "SPOKES": "Stainless Black 14g",
+                    "RIMS":	"WTB KOM Trail i30 TCS",
+                    "FRONT TIRE": "Maxxis Assegai EXO TR 3C 29x2.5\" WT",
+                    "REAR TIRE": "Maxxis Minion DHR II EXO TR 3C 29x2.4\" WT"
+                }
+            }
         ],
         
         "raleigh": [
-
+            {
+                "name": "Redux 2",
+                "class": "Commuter",
+                "stock": 1,
+                "price": "850",
+                "brand": "Raleigh",
+                "description": "Get down in the city with the Redux 2! Ready to commute, hit the pub, or ride home from a show, the Redux 2 is up for the challenges of street riding. There is no such thing as a predictable surface when it comes to riding in the city. You encounter countless obstacles from potholes and manhole covers to train tracks, curbs, grates and everything in between. The Redux 2 is the bike that can handle it all. Nimble like a mountain bike but made for the street, this best-selling bike is the ultimate multiuse machine. Plus, it’s fast and clean. Designed with a lightweight aluminum frame and fork, the Redux 2 is light enough to lift up steep stairs to an apartment but durable enough for hardcore city use. You get 9 speeds, a larger diameter handlebar, and hydraulic disc brakes for optimal stopping power. This bike is smooth-shifting and low-maintenance with the ultimate braking power in wet and dirty conditions. Big all-terrain tires roll over almost anything in their path. Clean lines, sporty graphics, minimal logos and overall good looks also make the Redux 2 a top pick.",
+                "specs": {
+                    "FRAME": "Custom Formed AL-6061 Heat Treated Aluminum 27.5 City Sport Geometry",
+                    "FORK": "Alloy Blades, with Post Mount Disc",
+                    "HEADSET": "1 1/8\"Internal Cartridge Bearing",
+                    "CRANKS": "Alloy Forged 3PC 104BCD, 40t",
+                    "BOTTOM BRACKET": "Sealed Cartridge Bearing",
+                    "REAR DERAILLEUR": "Shimano Alivio M4000 Shadow",
+                    "SHIFTER": "Shimano Acera M3000 9-Speed Trigger Shifter, Right Side Only",
+                    "COGSET": "Shimano 9sp 11-34t Cassette",
+                    "CHAIN": "KMC 9sp",
+                    "FRONT HUB": "Alloy Quick Release Disc, 32 Hole",
+                    "REAR HUB": "Alloy Quick Release Disc, 32 Hole",
+                    "SPOKES": "14g Stainless Steel with Brass Nipples",
+                    "RIMS": "Alloy DDM-5, 32h, 27.5\", 28mm Wide Double Wall",
+                    "TIRES": "Vee Tire Co. Zilent 27.5x47c, Wire Bead, 30 TPI",
+                    "BRAKE LEVERS": "Tektro HD-T285",
+                    "PEDALS": "Alloy Body, Chromoly Spindle",
+                    "HANDLEBAR": "Double Butted Alloy 35mm, 28mm Rise, 680mm Wide",
+                    "GRIPS": "MTB Lock-On with End Plugs",
+                    "STEM": "3D Forged Aluminum Alloy, 35mm Bra Clamp",
+                    "SEAT": "Redux Saddle",
+                    "SEATPOST": "Alloy Micro Adjust, 27.2 x 350/400mm",
+                    "EXTRAS": "Reflective Decals, Rack and Fender Mounts",
+                    "BRAKES": "Tektro HD-T285 Hydraulic Disc with 160mm Rotors"
+                }
+            }
         ],
         
         "orbea": [
-
+            {
+                "name": "Orca M11eLTD PWR",
+                "class": "Commuter",
+                "stock": 2,
+                "price": "9999",
+                "brand": "Orbea",
+                "description": "",
+                "specs": {
+                    "Frame": " Orbea Orca carbon OMX Disc, monocoque construction, HS 1,5\", BB 386mm, powermeter compatible, Rear Thru Axle 12x142mm, thread M12x2 P1, internal cable routing, EC/DC compatible, OMX specific seat tube.",
+                    "Fork": "Orbea Orca OMX ICR fork 2020, full carbon, 1-1/8\" - 1,5\" tappered head tube compatible, Thru axle 12x100mm, thread M12x2 P1, Speed release compatible dropout.",
+                    "Headset": "Acros Alloy 1-1/2\" Internal Cable Routing, Stainless Steel Bearing",
+                    "Crankset": "SRAM Red 1 AXS Power Meter Dub 35x48t",
+                    "Rear Derailleur": "SRAM Red eTAP",
+                    "Front Derailleur": "SRAM Red eTAP",
+                    "Shifters": "SRAM Red eTap AXS",
+                    "Casette": "SRAM XG-1290 10-28t 12-Speed",
+                    "Chain": "SRAM Red 12-Speed",
+                    "Wheels": "Vision 40 SC Disc Carbon TLR CL",
+                    "Tires": "Vittoria Corsa Competition G2.0 TLR 700x25c",
+                    "Handlebar": " OC RP10 Road Performance Carbon, Reach 80, Drop 125, w/Di2 hole",
+                    "Stem": " OC RP10 Road Performance ICR, -8º, IFC02 Computer mount interface",
+                    "Saddle": "Selle Italia SLR Boost SuperFlow L Carbon Keramic Rail Ø7 x 9 mm",
+                    "Seatpost": "Orbea Orca OMX, SB0/25, w/Micro tilt adjustment",
+                    "Brakes": "SRAM Red eTap AXS",
+                    "Battery": "SRAM eTap Powerpack",
+                    "Handlebar plugs": "Lyzard DSP 2.5mm",
+                    "Front Wheel Axle": "Orbea Thru Axle 12x100mm M12x2 P1 Lite",
+                    "Rear Wheel Axle": "Orbea Thru Axle 12x142mm M12x2 P1 Lite"
+                }
+            }
         ]
     }
 }

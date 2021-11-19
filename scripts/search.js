@@ -132,6 +132,8 @@ var brands = {
 function createEntry(query) {
     var surroundDiv = document.createElement("div");
     var link = document.createElement("a");
+    var image = document.createElement("img");
+    image.src = "/viciouscyclesproject/images/placeholder.jpeg";
     link.href = "/viciouscyclesproject/products/bikes/" + query.brand.toLowerCase() + "/" + query.name.replace(/ /g, "_").toLowerCase() + ".html";
     surroundDiv.className = "entryDiv";
     document.getElementById("searchDiv").append(link);
@@ -142,6 +144,7 @@ function createEntry(query) {
     } else {
         surroundDiv.innerHTML += "<h3 class='red'>Out of Stock</h3>";
     }
+    surroundDiv.appendChild(image);
 }
 
 //Ajax get function
