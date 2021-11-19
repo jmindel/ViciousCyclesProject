@@ -4,122 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vicious Cycles Bike Shop</title>
-    <link rel="stylesheet" href="/viciouscyclesproject/css/styles.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
 </head>
 <body>
 
     <!--Header bar-->
     <div id="headerBar">
-        
         <header>
-            <a href="/viciouscyclesproject/">
-                <img src="/viciouscyclesproject/images/logo.png" alt="Vicious Cycles">
+            <a href="">
+                <img src="images/logo.png" alt="Vicious Cycles">
             </a>
         </header>
-
         <nav>
             <div id="mobile-nav">
                 <a onclick="menuToggle()" id="hamburger">&#9776;</a>
             </div>
             <div id="desktop-nav">
-                <a href="/viciouscyclesproject/">Home</a>
-                <a href="">Products</a>
-                <a href="/viciouscyclesproject/about">About Us</a>
-                <a href="/viciouscyclesproject/contact">Contact Us</a>
+                <a href="">Home</a>
+                <a href="products/">Products</a>
+                <a href="about/">About Us</a>
+                <a href="contact/">Contact Us</a>
             </div>
         </nav>
-
     </div>
 
     <!--Hero image-->
-    <img src="/viciouscyclesproject/images/hero3.jpg" alt="" class="hero-image">
-
+    <img src="images/hero2.jpeg" alt="Grayscale bikers" class="hero-image">
     <div class="heroText">
-        <h1>Check out our bikes!</h1>
+        <h1>Vicious Cycles Bike Shop</h1>
+        <h3>Your Local Home for All Things Biking</h3>
     </div>
 
+    <!--Page body-->
     <main>
-        <h3>Vicious Cycle products can be purchased/ordered at our store. Come down today and we'll get started with a purchase of an existing bike with cash, credit, or in-house loan approval.</h3>
-        <h3>All custom builds will require a 25% down payment before projects will begin, and either payment in full, or an approved in-house loan, or a transfer of funds to a third-party vendor. All purchases on custom cycles are final.</h3>
-        
-
-        <h1>Vicious Cycles carries the following bike types:</h1>
+        <h2 class="paragraph">Vicious Cycles Bike Shop is a Charlotte-based cycle workshop founded by a few like-minded individuals in late 2010. Our mechanics build the bikes and man the workshop. Our customer service staff attends to the day-to-day operations. We hope to create and foster a strong passion for the local biking scene because each and every one of us is a biking enthusiast.</h2>
+        <h3 class="shrink">We believe that every machine should be an extension of its owner. We believe in the significance of individualism. We believe in the stories between your cycle and you. We believe in having fun. No matter the circumstances, we bike hard and we bike often.</h3>
+        <h3 class="shrink">You get on your bike, you ride, you fall, you might get pulled over, you overcome it all and you ride again. It’s a Vicious Cycle! So make it worth the while, don't just be part of the numbers. Ride your cycle, chase your dreams, live your life.</h3>
+        <h1>Vicious Cycles carries the following brands:</h1>
+        <!--Brand grid-->
         <div class="brandGrid x3">
-            <div class="brandGridItem" onclick="link('/viciouscyclesproject/products/search?type=kid')">
-                <img src="/viciouscyclesproject/images/kidbike-small.jpg" alt="Kid Bike">
+            <a href="products/search/?giant=on&type=all" class="brandGridItem">
+                GIANT
+            </a>
+            <a href="products/search/?diamondback=on&type=all" class="brandGridItem">
+                DIAMONDBACK
+            </a>
+            <a href="products/search/?huffy=on&type=all" class="brandGridItem">
+                HUFFY
+            </a>
+            <a href="products/search/?kona=on&type=all" class="brandGridItem">
+                KONA
+            </a>
+            <a href="products/search/?raleigh=on&type=all" class="brandGridItem">
+                RALEIGH
+            </a>
+            <a href="products/search/?orbea=on&type=all" class="brandGridItem">
+                ORBEA
+            </a>
+        </div>
+        <h2>Visit Brand Websites</h2>
+        <ul>
+            <li><a href="https://giant-bicycles.com/">Giant</a></li>
+            <li><a href="https://diamondback.com/">Diamondback</a></li>
+            <li><a href="https://huffybikes.com">Huffy</a></li>
+            <li><a href="https://konaworld.com/">Kona</a></li>
+            <li><a href="https://raleighusa.com/">Raleigh</a></li>
+            <li><a href="https://orbea.com">Orbea</a></li>
+        </ul>
+        <h1>Vicious Cycles carries these bike types:</h1>
+
+        <!--Products grid-->
+        <div class="brandGrid x3">
+            <div class="brandGridItem" onclick="link('products/search?type=kid')">
+                <img src="images/kidbike-small.jpg" alt="Kid Bike">
                 <h2>KIDS' BIKES</h2>
             </div>
-            <div class="brandGridItem" onclick="link('/viciouscyclesproject/products/search?type=mountain')">
-                <img src="/viciouscyclesproject/images/mountainbike-small.jpg" alt="Mountain Bike">
+            <div class="brandGridItem" onclick="link('products/search?type=mountain')">
+                <img src="images/mountainbike-small.jpg" alt="Mountain Bike">
                 <h2>MOUNTAIN BIKES</h2>
             </div>
-            <div class="brandGridItem" onclick="link('/viciouscyclesproject/products/search?type=commuter')">
-                <img src="/viciouscyclesproject/images/commuterbike-small.jpg" alt="Commuter Bike">
+            <div class="brandGridItem" onclick="link('products/search?type=commuter')">
+                <img src="images/commuterbike-small.jpg" alt="Commuter Bike">
                 <h2>COMMUTER BIKES</h2>
             </div>
         </div>
-        
-        <!--Form container-->
-        <fieldset>
-            <legend><h1>Find your Bike</h1></legend>
-
-            <!--Form-->
-            <form action="/viciouscyclesproject/products/search/" method="get">
-                <h3>Find your Brand</h3>
-                <label for="giant">Giant</label>
-                <input type="checkbox" id="giant" name="giant" class="checkbox">
-
-                <label for="diamondback">Diamondback</label>
-                <input type="checkbox" id="diamondback" name="diamondback" class="checkbox">
-
-                <label for="huffy">Huffy</label>
-                <input type="checkbox" id="huffy" name="huffy" class="checkbox">
-
-                <label for="kona">Kona</label>
-                <input type="checkbox" id="kona" name="kona" class="checkbox">
-
-                <label for="raleigh">Raleigh</label>
-                <input type="checkbox" id="raleigh" name="raleigh" class="checkbox">
-
-                <label for="orbea">Orbea</label>
-                <input type="checkbox" id="orbea" name="orbea" class="checkbox">
-
-                <h3>Select Your Type of Bike</h3>
-                <select name="type" id="type">
-                    <option value="all">All</option>
-                    <option value="kid">Kids' Bike</option>
-                    <option value="commuter">Commuter Bike</option>
-                    <option value="mountain">Mountain Bike</option>
-                </select>
-
-                <h3>Type of Product</h3>
-                <!--Note: the following radio buttons do not do anything in the form receive page-->
-                <label for="productBike" class="noBreak">Bikes</label>
-                <input type="radio" name="productType" id="productBike" value="bikes" checked>
-                <label for="productBike" class="noBreak">Accessories</label>
-                <input type="radio" name="productType" id="productAccessory" value="accessories">
-
-                <h3>What are you looking for?</h3>
-                <input type="text" id="query" name="q">
-
-                <h3>Maximum Price</h3>
-                <input type="number" id="budget" name="budget" step="1000" min="0">
-
-                <h3>Minimum Price</h3>
-                <input type="number" id="budgetMin" name="budgetMin" step="100" min="0">
-
-                <h3>Anything else?</h3>
-                <textarea name="other" id="other" cols="30" rows="2"></textarea>
-                
-                <input type="submit" value="Check our Stock" id="submitButton">
-            </form>
-        </fieldset>
+        <div id="philosophy">
+            <h1>Our Philosophy</h1>
+            <img class="side-image" src="images/biker-on-road.jpeg" alt="Biker on Road">
+            <h2>Our philosophy is that when you choose your bike, you should choose it based on the folks who will not only build your bicycle, but also those who will help you get comfortable on the bike, as well as provide service down the road as you need it. The best things in life are pretty simple. Riding bikes with friends, discovering new places and finding new trails are definitely included. Riding bikes helps us to disconnect from the hectic and noisy world and connect with friends, nature and ourselves. It might just be the best thing ever. Technological advancement, digital exploration and the growing globalization defines the world we live in and will bring more change in the years to come than ever before. It’s a world full of uncertainties where it’s easy to get lost. But bikes are a very rare breed of products that are completely mechanical and analogue. There aren’t many products that are so simple yet so sophisticated in their designs. Maybe that is what started my excitement for bikes as products. The process of observing, designing, improving, engineering and producing bikes surely is the second-best thing ever.</h2>
+        </div>
     </main>
-    <script src="/viciouscyclesproject/scripts/hamburger.js"></script>
+
+    <!--Collapsable mobile menu script-->
+    <script src="scripts/hamburger.js"></script>
 
     <footer>
-        <a href="https://facebook.com"><img src="/viciouscyclesproject/images/facebook.png" alt="Facebook"></a>
-        <a href="https://twitter.com"><img src="/viciouscyclesproject/images/twitter.png" alt="Twitter"></a>
+        <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+        <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter"></a>
         <p>&copy;Jesse Mindel 2021</p>
         <a href="mailto:jmindel@viciouscycles.com">jmindel@viciouscycles.com</a>
     </footer>
