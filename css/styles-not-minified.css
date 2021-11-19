@@ -55,6 +55,10 @@ h3 {
 /*Mobile styles*/
 @media screen and (max-width: 700px) {
 
+    footer a, footer p {
+        font-size: 3vw;
+    }
+
     #backToSearch {
         display: block;
         background-color: green;
