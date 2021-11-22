@@ -17,5 +17,9 @@ function link(url) {
 
 //Previous tab
 function goBack() {
-    window.history.back();
+    if (window.history.length > 2) {
+        window.history.back();
+    } else {
+        window.location = "/viciouscyclesproject/products";
+    }
 }

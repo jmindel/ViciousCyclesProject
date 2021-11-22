@@ -134,6 +134,7 @@ function createEntry(query) {
     var link = document.createElement("a");
     var image = document.createElement("img");
     image.src = "/viciouscyclesproject/images/placeholder.jpeg";
+    image.alt = "Placeholder Image";
     link.href = "/viciouscyclesproject/products/bikes/" + query.brand.toLowerCase() + "/" + query.name.replace(/ /g, "_").toLowerCase() + ".html";
     surroundDiv.className = "entryDiv";
     document.getElementById("searchDiv").append(link);

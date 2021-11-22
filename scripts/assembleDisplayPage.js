@@ -27,7 +27,7 @@ function analyzeData(rawData) {
         }
     }
     var container = document.getElementById("bikeInfoContainer");
-    container.innerHTML += "<img src='/viciouscyclesproject/images/placeholder.jpeg'></img><div class='bikeInfo'><h1>"+bike.name+"</h1><h1>"+bike.class+" Bike</h1><h1>Price: $"+bike.price+"</h1></div>";
+    container.innerHTML += "<img alt='Placeholder Image' src='/viciouscyclesproject/images/placeholder.jpeg'><div class='bikeInfo'><h1>"+bike.name+"</h1><h1>"+bike.class+" Bike</h1><h1>Price: $"+bike.price+"</h1></div>";
     
     
     container.innerHTML += "<h3 class='description'>"+bike.description+"</h3>";
